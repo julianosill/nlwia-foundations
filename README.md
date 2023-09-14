@@ -21,9 +21,10 @@ _Você deve ter o `Node.js` instalado. Caso não tenha, [clique aqui e faça a i
 > git clone https://github.com/julianosill/nlwia-foundations.git
 > ```
 
-- Instale as dependências necessárias:
+- Entre na pasta do projeto e instale as dependências necessárias:
 
 > ```properties
+> cd nlwia-foundations
 > npm i
 > ```
 
@@ -33,7 +34,7 @@ _Você deve ter o `Node.js` instalado. Caso não tenha, [clique aqui e faça a i
 > npm run web
 > ```
 
-- Abra uma segunda aba em seu terminal, e inicie o servidor back-end com:
+- Abra uma segunda aba em seu terminal e inicie o servidor back-end com:
 
 > ```properties
 > npm run server
