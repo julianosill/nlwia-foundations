@@ -1,0 +1,48 @@
+#app {
+  width: 90%;
+  max-width: 40rem;
+}
+
+.app__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.app__header {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+.header__logo {
+  width: 4.5rem;
+}
+
+.header__title {
+  color: #fff;
+  font-size: 2.5rem;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.app__summary {
+  margin-top: 4rem;
+  width: 100%;
+}
+
+.summary__heading {
+  color: var(--primary-light);
+  margin-bottom: 2rem;
+}
+
+.summary__text {
+  line-height: 1.5;
+}
+
+.summary__text.placeholder {
+  color: #fff;
+  opacity: 0.4;
+  user-select: none;
+}

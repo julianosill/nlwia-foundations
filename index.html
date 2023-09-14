@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link rel="icon" type="image/svg+xml" href="/logo.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Shorts Deaf Helper</title>
+  </head>
+  <body>
+    <div id="app">
+      <div class="app__container">
+        <header class="app__header">
+          <img class="header__logo" src="/logo.svg" alt="Deaf Helper" />
+          <h1 class="header__title">
+            Shorts<span class="font-light">Deaf</span>Helper
+          </h1>
+        </header>
+        <form id="form" class="form">
+          <input
+            id="url"
+            type="url"
+            class="form__input"
+            placeholder="URL do vídeo, ex: https://youtube.com/watch?..."
+          />
+          <button class="form__button" title="Resumir">
+            <i data-lucide="chevron-right"></i>
+          </button>
+        </form>
+        <section class="app__summary">
+          <h2 class="summary__heading">Resumo</h2>
+          <p id="summary-content" class="summary__text placeholder">
+            Insira o endereço de um vídeo para resumir.
+          </p>
+        </section>
+      </div>
+    </div>
+    <script type="module" src="web/main.js"></script>
+  </body>
+</html>
+
+<!-- 1ª Palavra-chave: Inteligência -->
+<!-- 2ª Palavra-chave: OPORTUNIDADE -->
+<!-- 3ª Palavra-chave: PRÓXIMO-NÍVEL -->
