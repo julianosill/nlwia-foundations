@@ -3,9 +3,12 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "engines": {
+    "node": "18"
+  },
   "scripts": {
     "web": "vite",
-    "server": "env YTDL_NO_UPDATE=1 node --watch --no-warnings server/index.js"
+    "server": "env YTDL_NO_UPDATE=1 node --watch --no-warnings server/index.js",
   },
   "devDependencies": {
     "vite": "^4.4.5"
